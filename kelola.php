@@ -71,8 +71,8 @@ if(isset($_GET['edit'])){
       <input type="text" class="form-control" name="nama" value="<?php echo $nama; ?>" placeholder="nama lengkap" />
     </div>
 <div class="mb-3">
-    <label for="tanggal_lahir" class="form-label">Tanggal Lahir: </label>
-    <input type="date" class ="form-control" id="tanggal" name="tanggal_lahir" value="<?php echo $tanggal;?>"/>
+    <label for="tanggal" class="form-label">Tanggal Lahir: </label>
+    <input type="date" class ="form-control" id="tanggal" name="tanggal" value="<?php echo $tanggal;?>"/>
 </div>
 <div class="mb-3">
 <div class="form-check">
